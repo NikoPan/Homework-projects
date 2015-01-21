@@ -1,0 +1,5 @@
+c:\users\admin\documents\visual studio 2013\Projects\05.Conditional-Statements-Homework\09.PlayIntDoubleString\bin\Debug\09.PlayIntDoubleString.exe.config
+c:\users\admin\documents\visual studio 2013\Projects\05.Conditional-Statements-Homework\09.PlayIntDoubleString\bin\Debug\09.PlayIntDoubleString.exe
+c:\users\admin\documents\visual studio 2013\Projects\05.Conditional-Statements-Homework\09.PlayIntDoubleString\bin\Debug\09.PlayIntDoubleString.pdb
+c:\users\admin\documents\visual studio 2013\Projects\05.Conditional-Statements-Homework\09.PlayIntDoubleString\obj\Debug\09.PlayIntDoubleString.exe
+c:\users\admin\documents\visual studio 2013\Projects\05.Conditional-Statements-Homework\09.PlayIntDoubleString\obj\Debug\09.PlayIntDoubleString.pdb

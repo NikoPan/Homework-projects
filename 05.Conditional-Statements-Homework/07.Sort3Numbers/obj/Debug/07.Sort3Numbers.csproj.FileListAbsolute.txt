@@ -1,0 +1,6 @@
+c:\users\admin\documents\visual studio 2013\Projects\05.Conditional-Statements-Homework\07.Sort3Numbers\bin\Debug\07.Sort3Numbers.exe.config
+c:\users\admin\documents\visual studio 2013\Projects\05.Conditional-Statements-Homework\07.Sort3Numbers\bin\Debug\07.Sort3Numbers.exe
+c:\users\admin\documents\visual studio 2013\Projects\05.Conditional-Statements-Homework\07.Sort3Numbers\bin\Debug\07.Sort3Numbers.pdb
+c:\users\admin\documents\visual studio 2013\Projects\05.Conditional-Statements-Homework\07.Sort3Numbers\obj\Debug\07.Sort3Numbers.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2013\Projects\05.Conditional-Statements-Homework\07.Sort3Numbers\obj\Debug\07.Sort3Numbers.exe
+c:\users\admin\documents\visual studio 2013\Projects\05.Conditional-Statements-Homework\07.Sort3Numbers\obj\Debug\07.Sort3Numbers.pdb
