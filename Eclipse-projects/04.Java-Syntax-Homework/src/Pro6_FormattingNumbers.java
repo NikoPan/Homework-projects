@@ -10,6 +10,7 @@ public class Pro6_FormattingNumbers {
 
 		String hexA = Integer.toHexString(a);
 		String binA = Integer.toBinaryString(a);
+		input.close();
 
 		System.out.printf("|%-10s|%010d|%10.2f|%-10.3f| ", hexA.toUpperCase(),
 				Integer.parseInt(binA), b, c);

@@ -7,6 +7,7 @@ public class Pro7_CountOfBitsOne {
 		Scanner input = new Scanner(System.in);
 		int n = input.nextInt();
 		int counter = Integer.bitCount(n);
+		input.close();
 
 		System.out.println(counter);
 	}

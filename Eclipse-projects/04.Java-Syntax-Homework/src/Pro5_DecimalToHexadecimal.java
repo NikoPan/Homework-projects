@@ -8,6 +8,7 @@ public class Pro5_DecimalToHexadecimal {
 		int decNumber = input.nextInt();
 
 		String hex = Integer.toHexString(decNumber);
+		input.close();
 
 		System.out.println("Hex value = " + hex.toUpperCase());
 	}

@@ -10,6 +10,8 @@ public class Pro4_TheSmallestOf3Numbers {
 		float b = input.nextFloat();
 		float c = input.nextFloat();
 
+		input.close();
+
 		float smallest = 0;
 
 		if (a <= b && a <= c) {
