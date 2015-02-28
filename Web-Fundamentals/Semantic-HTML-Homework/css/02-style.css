@@ -1,0 +1,56 @@
+
+#wrapper{
+    font-family: Tahoma;
+    background-color: pink;
+    border-radius: 10px;
+    width: 980px;
+    height: 380px;
+}
+
+#profile{
+    width: 240px;
+    margin-left: 10px;
+    float: left;
+    padding-bottom: 5px;
+}
+img{
+    width: 200px;
+}
+header{
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+
+meter{
+    width: 160px;
+}
+section {
+    border-radius: 10px;
+}
+#audio{
+    width: 310px;
+    height: 280px;
+    padding-bottom: 5px;
+    float: left;
+}
+#video{
+    width: 360px;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    float: left;
+}
+figure {
+    margin-left: 10px;
+}
+figcaption {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+}
+#audio audio:first-of-type {
+    background-color: #000;
+    height: 120px;
+}
+

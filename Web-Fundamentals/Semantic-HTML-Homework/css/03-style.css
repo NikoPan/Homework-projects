@@ -1,0 +1,33 @@
+#wrapper {
+    background-color: #000000;
+    border-radius: 10px;
+    font-family: verdana, helvetica;
+    position: absolute;
+    width: 800px;
+
+}
+
+header {
+    color: yellow;
+    text-align: center;
+    padding: 10px;
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+iframe {
+    margin: 20px;
+    border: 2px solid yellow;
+}
+
+a {
+    font-size: 2em;
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+}

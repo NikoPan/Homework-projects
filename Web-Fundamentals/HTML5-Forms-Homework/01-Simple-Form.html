@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <link href="css/01-style.css" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+    <form method="post" action="">
+        <header>
+            <h2>Enter the system</h2>
+
+            <p>It is necessary to login in Your account in order to sign in for a course.</p>
+        </header>
+        <div id="fields">
+            <fieldset id="new-student">
+
+                <legend>Are you new? <span>Register</span></legend>
+
+                <input type="text" id="new-user" name="username" placeholder="User name" value=""/>
+                <input type="text" id="mail" name="email" placeholder="Email" value=""/>
+                <input type="text" id="new-pass" name="password" placeholder="Password" value=""/>
+                <input type="text" id="confirm" name="confirm-pass" placeholder="Confirm Password" value=""/>
+                <input type="submit" id="register" value="Register"/>
+
+            </fieldset>
+            <fieldset id="login">
+                <legend>Already a student? Login</legend>
+                <input type="text" id="user" name="username" placeholder="User name" value=""/>
+                <input type="text" id="pass" name="password" placeholder="Password" value=""/>
+                <div id="remember-login">
+                <p><input type="checkbox" name="remember" value="yes"> Remember me?</p>
+
+                <div id="login-button">
+                    <input type="submit" id="login-submit" value="Login"/>
+                    <br>
+                    <br>
+                    <a href="#"> Forgot Password </a>
+                </div>
+                </div>
+            </fieldset>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

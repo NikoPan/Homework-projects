@@ -1,0 +1,18 @@
+body {
+    font-size: 14px;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.upload {
+    margin: 20px 0;
+}
+
+label {
+    float: left;
+    margin: 3px 8px 0 0;
+}
+
+input[name="search"] {
+    float: left;
+    margin: 3px 5px 0 0;
+}

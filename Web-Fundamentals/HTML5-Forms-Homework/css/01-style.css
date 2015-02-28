@@ -1,0 +1,101 @@
+#wrapper {
+    font-family: "Segoe UI", "Tahoma", San-serif;
+    width: 740px;
+    height: 500px;
+    background-color: #f3f3f3;
+}
+
+header {
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #27476b;
+}
+p{
+    font-size: 0.9em;
+}
+
+#new-student {
+    width: 325px;
+}
+
+input {
+    margin: 10px;
+}
+
+#new-student legend {
+    color: #5c5c5c;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#login{
+    margin-top: -20px;
+    vertical-align: top;
+    background-color: #27476b;
+    width: 325px;
+    height: 355px;
+}
+#login legend{
+    padding-top: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#login p{
+    color: white;
+    font-size: 0.8em;
+}
+span{
+    color:#27476b ;
+}
+
+fieldset {
+    margin-top: 10px;
+    display: inline-block;
+    border: 0;
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+/*buttons*/
+#new-student input[type="submit"]{
+    background-color: #f3f3f3 ;
+    border: 2px solid;
+    border-color: #27476b;
+    color: #27476b;
+    font-weight: 600;
+    float: right;
+    width: 150px;
+    height: 40px;
+    font-size: 0.8em;
+}
+#login input[type="submit"]{
+    width: 130px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 0.9em;
+    background-color: #27476b;
+    border: 2px solid;
+    border-color: #ffae02;
+    color: white;
+    float: right;
+}
+#remember-login{
+    display: flex;
+}
+#login-button{
+    float: right;
+    margin-left: 50px;
+}
+
+#login a{
+    padding-right: 10px;
+    color: white;
+    float: right;
+    font-size: 0.8em;
+
+}

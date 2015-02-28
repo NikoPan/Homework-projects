@@ -1,0 +1,182 @@
+@font-face {
+    font-family: Pamela;
+    src: url("fonts/Pamela%20wants%20to%20Ride.ttf");
+}
+
+@font-face {
+    font-family: PamelaHover;
+    src: url("fonts/Pamela%20want%20a%20Bike%20to%20Ride.ttf");
+}
+
+body {
+    background-color: #CCC;
+}
+
+#wrapper {
+    margin: 10px;
+    width: 960px;
+    margin: 10px auto;
+    background-color: #DDD;
+}
+
+header {
+    font-size: 2.2em;
+    padding-left: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #C71444;
+}
+
+nav ul li {
+    margin: 15px;
+    text-decoration: none;
+    color: #C71444;
+    display: inline-block;
+    font-family: Pamela;
+}
+
+div img {
+    padding-left: auto;
+    margin: 10px;
+    width: 250px;
+    float: left;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    font-family: PamelaHover;
+}
+
+footer p {
+    width: 50%;
+    padding: 20px;
+    line-height: 20px;
+    float: left;
+    position: relative;
+    margin: 10px;
+}
+
+footer div div {
+    display: inline-block;
+}
+
+.social {
+    display: inline-block;
+}
+
+footer > .social .facebook {
+    width: 75px;
+    height: 75px;
+    background: url(images/sprites-transparent.png) no-repeat;
+
+    background-position: -75px 0px;
+
+}
+
+footer > .social .facebook:hover {
+    width: 75px;
+    height: 75px;
+    background: url(images/sprites-transparent.png) no-repeat;
+
+    background-position: -75px -150px;
+}
+
+footer > .social .twitter {
+    width: 75px;
+    height: 75px;
+    background: url(images/sprites-transparent.png) no-repeat;
+
+    background-position: 0px 0px;
+}
+
+footer > .social .twitter:hover {
+    width: 75px;
+    height: 75px;
+    background: url(images/sprites-transparent.png) no-repeat;
+
+    background-position: 0px -75px;
+}
+
+footer > .social .vimeo {
+    width: 75px;
+    height: 75px;
+    background: url(images/sprites-transparent.png) no-repeat;
+    background-position: -225px 0px;
+}
+
+footer > .social .vimeo:hover {
+    width: 75px;
+    height: 75px;
+    background: url(images/sprites-transparent.png) no-repeat;
+    background-position: -225px -227px;
+}
+
+
+table{
+    width: 500px;
+
+    text-align: center;
+    background-color: #FFFF00;
+}
+td{
+    border: 5px ;
+    padding: 10px;
+}
+th{
+    padding: 15px;
+    background-color: orange;
+}
+table thead tr th:last-child{
+    width: 25%;
+}
+
+tbody tr td:nth-child(6){
+    border: 2px solid blue;
+}
+tbody tr td:nth-child(5){
+    border: 2px solid blue;
+}
+tbody tr td:nth-child(6):hover{
+    background-color: red;
+}
+tbody tr td:nth-child(5):hover{
+    background-color: green;
+}
+main table tbody{
+    border: 2px solid yellow;
+}
+table{
+    padding: 10px;
+    border: 5px solid lightgray;
+}
+#images img{
+    width: 15%;
+    float: none;
+}
+
+
+#send{
+    color: white;
+    background-color: green;
+    width: 160px;
+    height: 40px;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#reset{
+    background-color: red;
+    width: 160px;
+    height: 40px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+form>fieldset:last-child{
+}
+
+
+
+
+

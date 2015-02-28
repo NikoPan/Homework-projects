@@ -1,0 +1,119 @@
+#wrapper {
+    position: relative;
+    font-family: Calibri;
+    width: 700px;
+    height: 280px;
+    margin: 10px;
+    border-top: 6px dotted #ffff02;
+    border-right: 12px solid #028502;
+    border-bottom: 8px double #0202FF;
+    border-left: 8px dashed #ff0202;
+    box-shadow: 18px 18px 10px #666666;
+
+
+}
+
+h1 {
+    font-size: 3.3em;
+    text-align: center;
+    text-shadow: 9px 12px 12px #666666;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+#table {
+    width: 600px;
+    height: 110px;
+    margin: 5px auto;
+
+    border-radius: 80px;
+    box-shadow: 0 0 0 2px red,
+    0 0 0 4px yellow,
+    0 0 0 6px green,
+    0 0 0 8px blue;
+    -moz-box-shadow: 0 0 0 2px red,
+    0 0 0 4px yellow,
+    0 0 0 6px green,
+    0 0 0 8px blue;
+    -webkit-shadow: 0 0 0 2px red,
+    0 0 0 4px yellow,
+    0 0 0 6px green,
+    0 0 0 8px blue;
+
+}
+
+table {
+    width: 480px;
+    height: 120px;
+    border: 10px;
+    margin: 5px auto;
+    border-radius: 80px;
+    text-align: center;
+    padding: 10px;
+    border-spacing: 10px;
+
+}
+
+th {
+    padding-bottom: 15px;
+    font-size: 1.3em;
+    font-weight: normal
+}
+
+td {
+    border-left: 3px solid #ffae02;
+    border-top: 3px solid #ffae02;
+    border-bottom: 3px solid #ad6902;
+    border-right: 3px solid  #ad6902;
+    font-size: 1.1em;
+    background-color: #de961b;
+
+}
+
+#small {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: rgba(150, 150, 150, 0.6);
+    border-radius: 50%;
+    top: -122px;
+    left: 559px;
+    border: 3px dashed white;
+    box-shadow: 0 0 0 6px rgba(150, 150, 150, 0.6);
+}
+
+#medium {
+    background-color: rgba(150, 150, 150, 0.6);
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px dashed white;
+    box-shadow: 0 0 0 6px rgba(150, 150, 150, 0.6);
+    top: -199px;
+    left: 605px;
+
+}
+
+#large {
+    background-color: rgba(150, 150, 150, 0.6);
+    position: relative;
+    width: 140px;
+    height: 80px;
+    border-radius: 45px;
+    border: 3px dashed white;
+    box-shadow: 0 0 0 6px rgba(150, 150, 150, 0.6);
+    top: -309px;
+    left: 658px;
+}
+
+.cool {
+    font-family: Tahoma;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: white;
+    margin-top: 7px;
+    text-align: center;
+    vertical-align: bottom;
+}
+

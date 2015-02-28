@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <title>SoftUni Lab</title>
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <div id="logo">
+            <img src="images/nissan-logo.png" alt="Nissan">
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">The project</a></li>
+                <li><a href="">Car models</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Mark</th>
+                <th colspan="2">Approve?</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Jim</td>
+                <td>White</td>
+                <td>7</td>
+                <td><a href="#">Yes</a></td>
+                <td><a href="#">No</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td colspan="col">Jane</td>
+                <td>No Last Name</td>
+                <td>9</td>
+                <td><a href="#">Yes</a></td>
+                <td><a href="#">No</a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Jordan</td>
+                <td>Brown</td>
+                <td>4</td>
+                <td><a href="#">Yes</a></td>
+                <td><a href="#">No</a></td>
+            </tr>
+            </tbody>
+        </table>
+        <form>
+            <fieldset>
+                <legend>User login Information</legend>
+                <input type="text" name="user" id="username" placeholder="Enter your username"
+                       pattern="[A-Za-z]+" required="true">
+                <input type="password" name="pass" id="password" placeholder="Enter your password" required="true">
+            </fieldset>
+
+            <fieldset>
+                <legend>User profile Information</legend>
+                <input type="text" name="firstname" id="first" pattern="[A-Za-z]+" placeholder="First Name" required="true">
+                <input type="text" name="lastname" id="last" pattern="[A-Za-z]+" placeholder="Last Name" required="true">
+            </fieldset>
+
+            <fieldset>
+                <legend>Business Information</legend>
+                <input type="text" name="email" id="mail" pattern="[A-Za-z]+" placeholder="Email address"required="true">
+                <input id="team"  type="number" min="0" max="255"  placeholder="Team Size" onchange="changeColor('spinbox')">
+            </fieldset>
+            <fieldset>
+                <legend>Done?</legend>
+
+                <input id="send" type="submit" name="submit" value="Send">
+                <input id="reset" type="reset" value="Reset form">
+            </fieldset>
+
+        </form>
+        <div id="images">
+            <img src="images/titanic.png">
+            <img src="images/pumba.jpg">
+            <img src="images/kfc.jpg">
+
+        </div>
+    </main>
+    <footer>
+
+        <p>This site is distributed under R.A.K.I.A. &trade; License. If you want to contribute to it please contact us
+            at SoftUni&copy; official email address.</p>
+
+        <div class="social">
+            <div class="facebook">
+                <a href="#" alt="Facebook"></a>
+            </div>
+            <div class="twitter">
+                <a href="#" alt="Twitter"></a>
+            </div>
+            <div class="vimeo">
+                <a href="#" alt="Vimeo"></a>
+            </div>
+
+
+        </div>
+
+
+    </footer>
+</div>
+</body>
+</html>
