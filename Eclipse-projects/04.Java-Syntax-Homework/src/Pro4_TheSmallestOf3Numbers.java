@@ -20,7 +20,7 @@ public class Pro4_TheSmallestOf3Numbers {
 		if (b <= a && b <= c) {
 			smallest = b;
 		}
-		if (c <= a && c <= a) {
+		if (c <= a && c <= b) {
 			smallest = c;
 		}
 		if (smallest % 1 == 0) {
