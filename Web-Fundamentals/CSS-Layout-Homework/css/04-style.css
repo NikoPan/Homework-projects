@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #12131a;
+    text-align: center;
+    font-family: Calibri;
+}
+
+#wrapper {
+    background-color: #ffffff;
+    width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#cover {
+    background-image: url("../resources/headerBackground.jpg");
+    background-repeat: no-repeat;
+    height: 270px;
+}
+
+#cover h1 {
+    text-align: right;
+    color: #ffffff;
+    margin-right: 5%;
+    padding-top: 200px;
+}
+
+header nav {
+    width: 900px;
+    background: -webkit-linear-gradient(#f7f7f7, #e0e0e0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f7f7f7, #e0e0e0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f7f7f7, #e0e0e0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f7f7f7, #e0e0e0); /* Standard syntax */
+    border-bottom: 1px solid white;
+    box-shadow: 0 4px 0 -2px #e0e0e0;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    border-right: 1px solid #ffffff;
+    font-size: 1.3em;
+    text-align: center;
+
+}
+
+header > nav > ul > li:first-of-type {
+    background: #bdbdbd;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #555252;
+
+}
+
+
+aside {
+    float: right;
+    width: 220px;
+    display: block;
+    margin: 20px 40px;
+}
+
+h2 {
+    padding: 5px;
+    color: #7fc40a;
+}
+
+#news-bar {
+    background: #f7f7f7;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+
+}
+
+#news-bar li {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+aside a {
+    color: #7fc40a;
+}
+
+#messages-bar {
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#messages-bar dfn span {
+    font-weight: 600;
+}
+
+#messages-bar h2 {
+    padding-bottom: 10px;
+}
+
+#messages-bar p a {
+    padding-top: 10px;
+
+}
+
+time {
+
+    font-weight: 600;
+}
+
+/*main*/
+main {
+    width: 70%;
+}
+
+#welcome, #articles {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    margin: 20px 40px 20px 20px;
+    padding: 20px;
+}
+
+footer {
+    bottom: 0;
+    height: 100px;
+    width: 900px;
+    border-top: 1px solid #ffffff;
+    background: -webkit-linear-gradient(#a7dd44, #8ac619); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#a7dd44, #8ac619); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#a7dd44, #8ac619)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#a7dd44, #8ac619); /* Standard syntax */
+    margin-top: 10px;
+    left: 0;
+    box-shadow: 0 -2px 0 0 #a7dd44;
+}
+
+footer p {
+    margin: 40px;
+}
+
+footer a:link {
+    color: black;
+}
+
+footer a:visited {
+    color: black;
+}
+
+footer a:hover {
+    color: black;
+}
+
+footer a:active {
+    color: black;
+}
+
+article img {
+    float: left;
+    margin: 0px 20px 0px 10px;
+}
+
+article div p {
+    padding: 0px 15px 25px;
+    margin-left: 0px;
+    display: block;
+
+}
+
+article h3 {
+    font-size: 1em;
+    padding-bottom: 10px;
+}
