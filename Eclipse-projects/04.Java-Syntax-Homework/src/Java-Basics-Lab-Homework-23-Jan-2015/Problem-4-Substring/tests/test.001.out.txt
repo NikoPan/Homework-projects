@@ -1,6 +1,0 @@
-pro
-pri
-pre
-pro
-pp 
-pr
