@@ -1,0 +1,21 @@
+#expression, #result{
+    width: 150px;
+    height: 30px;
+    background-color: #254566;
+    color: #da8f3e;
+    border: 1px solid deepskyblue;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+
+}
+body div input{
+
+
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+
+}
